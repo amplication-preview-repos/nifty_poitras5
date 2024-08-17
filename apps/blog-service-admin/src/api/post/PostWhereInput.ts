@@ -1,0 +1,32 @@
+import { StringNullableFilter } from "../../util/StringNullableFilter";
+import { CommentListRelationFilter } from "../comment/CommentListRelationFilter";
+import { DateTimeNullableFilter } from "../../util/DateTimeNullableFilter";
+import { StringFilter } from "../../util/StringFilter";
+
+export type PostWhereInput = {
+  author?: StringNullableFilter;
+  blogAuthor?: StringNullableFilter;
+  blogContent?: StringNullableFilter;
+  bodyContent?: StringNullableFilter;
+  comments?: CommentListRelationFilter;
+  content?: StringNullableFilter;
+  createdTimestamp?: DateTimeNullableFilter;
+  creationDate?: DateTimeNullableFilter;
+  creationDateTime?: DateTimeNullableFilter;
+  creationTimestamp?: DateTimeNullableFilter;
+  headline?: StringNullableFilter;
+  id?: StringFilter;
+  modificationDate?: DateTimeNullableFilter;
+  modificationDateTime?: DateTimeNullableFilter;
+  modificationTimestamp?: DateTimeNullableFilter;
+  postAuthor?: StringNullableFilter;
+  postBody?: StringNullableFilter;
+  postContent?: StringNullableFilter;
+  postCreationDate?: DateTimeNullableFilter;
+  postModificationDate?: DateTimeNullableFilter;
+  postTitle?: StringNullableFilter;
+  postWriter?: StringNullableFilter;
+  title?: StringNullableFilter;
+  updatedTimestamp?: DateTimeNullableFilter;
+  writer?: StringNullableFilter;
+};

@@ -1,0 +1,30 @@
+import { SortOrder } from "../../util/SortOrder";
+
+export type PostOrderByInput = {
+  author?: SortOrder;
+  blogAuthor?: SortOrder;
+  blogContent?: SortOrder;
+  bodyContent?: SortOrder;
+  content?: SortOrder;
+  createdAt?: SortOrder;
+  createdTimestamp?: SortOrder;
+  creationDate?: SortOrder;
+  creationDateTime?: SortOrder;
+  creationTimestamp?: SortOrder;
+  headline?: SortOrder;
+  id?: SortOrder;
+  modificationDate?: SortOrder;
+  modificationDateTime?: SortOrder;
+  modificationTimestamp?: SortOrder;
+  postAuthor?: SortOrder;
+  postBody?: SortOrder;
+  postContent?: SortOrder;
+  postCreationDate?: SortOrder;
+  postModificationDate?: SortOrder;
+  postTitle?: SortOrder;
+  postWriter?: SortOrder;
+  title?: SortOrder;
+  updatedAt?: SortOrder;
+  updatedTimestamp?: SortOrder;
+  writer?: SortOrder;
+};
